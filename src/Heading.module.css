@@ -1,0 +1,12 @@
+.bordering{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+   
+}
+
+.test{
+    padding: 8px;
+    background: #446EE6;
+border-radius: 20px;
+}

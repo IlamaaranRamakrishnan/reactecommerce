@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import Homepage from './Homepage';
+import Error from './Error';
+import Login from './Login';
+import Shopping from './Shopping';
+import Singlepage from './Singlepage';
+import Shoppingcart from './Shoppingcart';
+import PrivateRoutes from './PrivateRoutes'
+
+
+//react router rendering
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Routes>
+      <Route path="/" element={<Homepage />} />
+      <Route path="/login" element={<Login />} />
+      <Route element={<PrivateRoutes/>}>
+        <Route path="/shopping" element={<Shopping />} />
+        <Route path="/item/:productid" element={<Singlepage />} />
+        <Route path="/shoppingcart" element={<Shoppingcart />} />
+      </Route>
+
+      <Route path="*" element={<Error />} />
+    </Routes>
+  )
+
 }
+
 
 export default App;

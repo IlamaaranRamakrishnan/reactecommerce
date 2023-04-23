@@ -1,0 +1,33 @@
+.mainDivs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textColour {
+    font-size: 2rem;
+}
+
+.textLabel {
+    font-size: 1.5rem;
+}
+
+.textInput {
+    width: 200px;
+    height: 20px;
+    border: 2px solid #789ADE;
+    border-radius: 80px;
+    margin: 5px;
+    font-size: 1.2rem;
+}
+
+.buttonSubmit {
+    font-size: 1.2rem;
+    color: #fefefe;
+    margin: 5px;
+    width: 210px;
+    background: #8699DA;
+    border-color: #8699DA;
+    border-radius: 80px;
+    box-shadow: 4px 8px 12px rgba(78, 99, 141, 0.06), inset 0px 4px 12px rgba(200, 211, 249, 0.6);
+}

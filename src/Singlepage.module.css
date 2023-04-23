@@ -1,0 +1,67 @@
+.ChangingHeader{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.ChangeText{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background: #446EE6;
+    border-color: #446EE6;
+    height: min-content;
+    color: #FEFEFE;
+    padding: 15px;
+    border-radius: 50px;
+    position: relative;
+    top: 10px;
+    margin-left: 10px;
+}
+
+.h1Edit{
+    text-align: center;
+}
+/* Editinig list display*/
+.EditProducts{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), #FFFFFF;
+    list-style: none;
+    width: 250px;
+    padding: 20px;
+    border-radius: 20px;
+    margin:20px auto;
+   
+}
+
+.imageEdit{
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.pEdit{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.editList{
+ font-size: 1.2rem;
+ display: flex;
+ flex-direction: column;
+}
+
+
+.changeLinkDesign{
+    text-decoration: none;
+    background: #8699DA;
+    border-color: #8699DA;
+    border-radius: 80px;
+    box-shadow: 4px 8px 12px rgba(78, 99, 141, 0.06), inset 0px 4px 12px rgba(200, 211, 249, 0.6);
+    width: max-content;
+    color: #fefefe;
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+
+

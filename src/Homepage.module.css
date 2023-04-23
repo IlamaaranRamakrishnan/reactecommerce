@@ -1,0 +1,38 @@
+/*main div stying*/
+.backgroundSettings{
+    height: 100vh;
+display: flex;
+flex-direction: column;
+background-image: url(../src/images/hero.png);
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+}
+
+/*Add border and drag to center */
+.setBordering{
+    width: 300px;
+    height: min-content;
+    border: 2px solid #FFFFFF;
+    align-self: center;
+    position: relative;
+    top: 30vh;
+    padding: 10px;
+}
+/*setting child div with border */
+.editText{
+    color: #FFFFFF; 
+}
+
+
+.Buttons{
+    font-size: 1.5rem;
+    font-weight: 700;
+    background: #FEFEFE;
+    width: 100px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+
+

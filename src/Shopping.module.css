@@ -1,0 +1,113 @@
+/* Adding padding */
+.mainDiv{
+    padding: 5px;
+    
+}
+
+.h2Edit{
+    text-align: center;
+}
+
+/* Adding search bar styling*/
+.textInput {
+    width: 250px;
+    height: 20px;
+    border: 2px solid #789ADE;
+    border-radius: 80px;
+    margin: 5px;
+    font-size: 1.2rem;
+}
+
+/* sorting options main control*/
+.buttonControl{
+    display: flex;
+    flex-direction: row;
+}
+
+/* sorting options sytling*/
+.buttonSubmit{
+    font-size: 1rem;
+    color: #fefefe;
+    margin: 5px;
+    width: 100px;
+    width: max-content;
+    background: #8699DA;
+    border-color: #8699DA;
+    border-radius: 80px;
+    box-shadow: 4px 8px 12px rgba(78, 99, 141, 0.06), inset 0px 4px 12px rgba(200, 211, 249, 0.6);
+}
+
+/* Editinig list display*/
+.EditProducts{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), #FFFFFF;
+    list-style: none;
+    width: 250px;
+    padding: 20px;
+    border-radius: 20px;
+    margin:20px auto;
+   
+}
+
+.imageEdit{
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.pEdit{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.editList{
+ font-size: 1.2rem;
+ display: flex;
+ flex-direction: column;
+}
+
+
+.changeLinkDesign{
+    text-decoration: none;
+    background: #8699DA;
+    border-color: #8699DA;
+    border-radius: 80px;
+    box-shadow: 4px 8px 12px rgba(78, 99, 141, 0.06), inset 0px 4px 12px rgba(200, 211, 249, 0.6);
+    width: max-content;
+    color: #fefefe;
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+
+
+
+.paginationButtons {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+/* To edit each pagination button*/
+.paginationButtons a {
+    padding: 10px;
+    margin: 10px;
+    background: #8699DA;
+    border-color: #8699DA;
+    border-radius: 80px;
+    box-shadow: 4px 8px 12px rgba(78, 99, 141, 0.06), inset 0px 4px 12px rgba(200, 211, 249, 0.6);
+    cursor: pointer;
+}
+
+.paginationButtons a:hover {
+    color: white;
+    background-color: rgb(49, 49, 209);
+    border-color:rgb(49, 49, 209);
+    border-radius: 80px;
+    box-shadow: 4px 8px 12px rgba(78, 99, 141, 0.06), inset 0px 4px 12px rgba(200, 211, 249, 0.6);
+}
+
+.paginationActive a {
+    color: white;
+    background-color: rgb(49, 49, 209);
+}

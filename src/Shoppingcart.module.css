@@ -1,0 +1,44 @@
+
+
+.ChangeText{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background: #446EE6;
+    border-color: #446EE6;
+    height: min-content;
+    color: #FEFEFE;
+    padding: 15px;
+    border-radius: 50px;
+    position: relative;
+    top: 20px;
+    margin: 20px;
+}
+
+.mainDivs{
+    padding-top: 20px;
+    margin: 0 10px;
+}
+
+.tableEdits{
+    border: 2px solid #789ADE;
+    text-align: center;
+}
+
+.tableEdits2{
+    border: 2px solid #789ADE;
+}
+
+.imageEdit{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.EditH3{
+    
+    border: 2px solid #789ADE;
+    width: min-content;
+    
+  
+}
